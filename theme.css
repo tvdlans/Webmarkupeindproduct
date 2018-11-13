@@ -1,32 +1,330 @@
-.header-image{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    position: relative;
-    overflow: hidden;
+@media only screen and (min-width: 961px) {
+	.header-image{
+	    margin-left: auto;
+	    margin-right: auto;
+	    height: 200px;
+	    overflow: hidden;
+	    margin-top: -10px;
+	}
+
+	.product-image{
+		height: 370px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	}
+
+	header{
+		position: relative;
+	}
+
+	h1{
+		font-family: Berlin Sans FB;
+	    font-size: 65pt;
+	    font-weight: 1;
+	    position: absolute;
+	    top: 22%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+
+	nav{
+		background-color: #707070;
+		height: 40px;
+		line-height: 40px;
+		margin-left: auto;
+	    margin-right: auto;
+	    word-spacing: 20px;
+	    font-family: arial;
+	    font-size: 15pt; 
+	    margin-top: -20px;
+	}
+
+	ul li{
+		display: inline;
+    	list-style-type:none;
+	}
+
+	body{
+		background-image: url("img/background.jpeg");
+		background-repeat: no-repeat;
+	}
+
+	img{
+		object-fit: cover;
+	}
+
+	nav, h1, h2, a{
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.header-image, .product-image, nav, section, footer{
+		width: 900px;
+		display: block;
+	}
+
+	section{
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	h2{
+		display: block;
+		font-family: arial;
+		font-size: 63pt;
+		margin-bottom: auto;
+		margin-top: auto;	
+		font-weight: 1;
+	}
+
+	footer {
+		color: #FFF;
+		background-color: #000;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: -1em;
+	}
+
+	p{
+		text-align: center;
+	}
 }
 
-.product-image{
-	width: 900px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+@media only screen and (min-width: 360px) and (max-width: 960px){
+	.header-image{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    height: 150px;
+	    overflow: hidden;
+	    margin-top: -10px;
+	    width: 100%;
+	}
+
+	.product-image{
+		height: 325px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	    margin-bottom: -4px;
+	}
+
+	.board-games, .mobile-games>h2{
+		display: none;
+	}
+
+	.entertainment-img{
+		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+
+	.entertainment-img>img{
+		width: 100%;
+	}
+
+	.mobile-games{
+		display: block;
+		width: 50%;
+		float: right;
+	}
+
+	.mobile-games>img{
+		width: 100%;
+	}
+
+	.console-games>img {
+		width: 100%;
+	}
+
+	header{
+		position: relative;
+		width: 100%;
+	}
+
+	@media only screen and (min-width: 360px) and (max-width: 765px){	
+		h1{
+			font-family: Berlin Sans FB;
+		    font-size: 45pt;
+		    font-weight: 1;
+		    position: absolute;
+		    top: -18%;
+		    left: 15%
+		}
+	}
+	
+	@media only screen and (min-width: 766px) and (max-width: 960px){	
+		h1{
+			font-family: Berlin Sans FB;
+		    font-size: 65pt;
+		    font-weight: 1;
+		    position: absolute;
+		    top: -20%;
+		    left: 8%
+		}
+	}		
+
+	nav{
+		background-color: #707070;
+		height: 25px;
+		line-height: 25px;
+		margin-left: auto;
+	    margin-right: auto;
+	    word-spacing: 20px;
+	    font-family: arial;
+	    font-size: 15pt; 
+	    margin-top: -20px;
+	}
+
+	ul li{
+		display: inline;
+    	list-style-type:none;
+	}
+
+	img{
+		object-fit: cover;
+	}
+
+	nav, h1, h2, a{
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	section{
+		width: 100%;
+		display: inline-block;
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	h2{
+		display: block;
+		font-family: arial;
+		font-size: 50pt;
+		margin-bottom: auto;
+		margin-top: auto;	
+		font-weight: 1;
+	}
+
+	footer {
+		height: 25px;
+		line-height: 25px;
+		color: #FFF;
+		background-color: #000;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: -16px;
+	}
+
+	p{
+		text-align: center;
+	}
 }
 
-nav, h1, span{
-	text-transform: uppercase;
-	text-align: center;
+@media only screen and (max-width: 359px){
+	.header-image{
+	    margin-left: auto;
+	    margin-right: auto;
+	    height: 70px;
+	    overflow: hidden;
+	    margin-top: -10px;
+	}
+
+	.product-image{
+		height: 150px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	}
+
+	.mobile-games>h2, .board-games>h2, .console-games>h2{
+		display: none;
+	}
+
+	header{
+		position: relative;
+	}
+
+	h1{
+		font-family: Berlin Sans FB;
+	    font-size: 1.7em;
+	    font-weight: 500;
+	    position: absolute;
+	    top: 5%;
+	    left: 15%;
+	}
+
+	nav{
+		background-color: #707070;
+		height: 30px;
+		line-height: 35px;
+		margin-left: auto;
+	    margin-right: auto;
+	    word-spacing: 20px;
+	    font-family: arial;
+	    font-size: 0.9em; 
+	    margin-top: -20px;
+	}
+
+	ul li{
+		display: inline;
+    	list-style-type:none;
+	}
+
+	a{
+		margin-left: -10px;
+	}
+
+	img{
+		object-fit: cover;
+	}
+
+	nav, h1, h2, a{
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.header-image, .product-image, nav, section, footer{
+		width: 300px;
+		display: block;
+	}
+
+	section{
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	h2{
+		display: block;
+		font-family: arial;
+		font-size: 1.4em;
+		margin-bottom: auto;
+		margin-top: auto;	
+		font-weight: 1;
+	}
+
+	footer {
+		color: #FFF;
+		background-color: #000;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: -1em;
+	}
+
+	p{
+		text-align: center;
+	}
 }
 
-p{
-	text-align: center;
-}
 
-span{
-	display: block;
-	font-family: arial;
-	font-size: 30pt;
-}
 
