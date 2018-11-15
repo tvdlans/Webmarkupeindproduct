@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="contactcss.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1>COMPANY NAME</h1>
+		<img src="img\companylogoBG.jpg" class="header-image" alt="This is the company logo" title="Company logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="http://www.blogger.com">Product</a></li>
+			<li><a href="contact.html">Blog</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="entertainment">
+			<h2>Contact</h2>
+		</section>
+
+		<section class="form">
+			<aside>More information</aside>
+
+			<form action="nowhere.php" method="post">
+				<fieldset>
+					<label >Select topic</label>
+					<select>
+						<option value="general">General inquiries</option>
+						<option value="press">Press relations</option>
+						<option value="recruitement">Recruitement</option>
+					</select>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="input" 
+							type="text"
+							name="contactFormName"
+							placeholder="Your name.."
+					/>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="input" 
+							type="email"
+							name="email"
+							placeholder="Your email.."
+					/>
+				</fieldset>
+				<fieldset>
+					<textarea
+							rows="7"
+							cols="40"
+							name="message"
+							placeholder="Write something.."
+					></textarea>
+				</fieldset>
+				<input class="submit"
+						type="submit"
+						value="Submit"
+				/>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		2018 - Student name - Inholland 
+	</footer>
+</body>
+</html>
