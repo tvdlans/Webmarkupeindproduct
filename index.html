@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="theme.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 	<meta charset="utf-8">
-	<title></title>
+	<meta name="keywords" content="Games, Entertainment, Computer, Board, Console, Fun, Puzzle, Happy">
+	<meta name="author" content="Tom van der Lans">
+	<meta name="description" content="Eindopdracht webmarkup over entertainment">
+	<link rel="stylesheet" type="text/css" href="css/globalcss.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Home</title>
 </head>
 <body>
+	<!-- Background video -->
+	<video autoplay loop muted id="bgvideo">
+		<source src="movie/background.mp4" type="video/mp4">
+	</video>
+	<!-- The header -->
 	<header>
 		<h1>COMPANY NAME</h1>
-		<img src="img\companylogoBG.jpg" class="header-image" alt="This is the company logo" title="Company logo">
+		<a href="index.html"><img src="img/companylogoBG.jpg" class="header-image" alt="This is the company logo" title="Company logo"></a>
 	</header>
-
+	<!-- The navigation bar -->
 	<nav>
 		<ul>
 			<li><a href="product.html">Products</a></li>
@@ -18,35 +45,39 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-
-	<section class="entertainment">
-		<h2>we are</h2>
-		<h2>entertainment</h2>
-	</section>
-	<section class="entertainment-img">
-		<img src="img\product3.jpg" class="product-image" alt="This is product1" titl="product 1">
-	</section>
-
-	<section class="mobile-games">
-		<h2>mobile</h2>
-		<h2>games</h2>
-		<img src="img\product8.jpg" class="product-image" alt="This is product2" titl="product 2">
-	</section>
-
-	<section class="board-games">
-		<h2>board</h2>
-		<h2>games</h2>
-		<img src="img\product6.jpg" class="product-image" alt="This is product3" titl="product 3">
-	</section>
-
-	<section class="console-games">
-		<h2>console</h2>
-		<h2>games</h2>
-		<img src="img\product9.jpg" class="product-image" alt="This is product4" titl="product 4">
-	</section>
-
+	<main>
+		<article>
+		<!-- Block 1 -->
+			<section class="entertainment">
+				<h2>we are</h2>
+				<h2>entertainment</h2>
+			</section>
+		</article>
+		<section class="entertainment-img">
+			<img src="img/product3.jpg" class="product-image" alt="This is product1" title="product 1">
+		</section>
+		<!-- Block 2 -->
+		<section class="mobile-games">
+			<h2>mobile</h2>
+			<h2>games</h2>
+			<img src="img/product8.jpg" class="product-image" alt="This is product2" title="product 2">
+		</section>
+		<!-- Block 3-->
+		<section class="board-games">
+			<h2>board</h2>
+			<h2>games</h2>
+			<img src="img/product6.jpg" class="product-image" alt="This is product3" title="product 3">
+		</section>
+		<!-- Block 4-->
+		<section class="console-games">
+			<h2>console</h2>
+			<h2>games</h2>
+			<img src="img/product9.jpg" class="product-image" alt="This is product4" title="product 4">
+		</section>
+	</main>
+	<!-- The footer -->
 	<footer>
-		<p>2018 - Tom van der Lans - Inholland </p>
+		<p>&copy; 2018 - <strong>Tom van der Lans</strong> - Inholland </p>
 	</footer>
 
 </body>

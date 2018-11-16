@@ -1,42 +1,102 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
-<form action="nowhere.php" method="post">
-	<fieldset>
-		<label >Select topic</label>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
-	/>
-</form>
-2018 - Student name - Inholland 
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Games, Entertainment, Computer, Board, Console, Fun, Puzzle, Happy">
+	<meta name="author" content="Tom van der Lans">
+	<meta name="description" content="Contact-pagina van deze site">
+	<link rel="stylesheet" type="text/css" href="css/contactcss.css">
+	<link rel="stylesheet" type="text/css" href="css/globalcss.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Contact</title>
+</head>
+<body>
+	<!-- Background video -->
+	<video autoplay loop muted id="bgvideo">
+		<source src="movie/background.mp4" type="video/mp4">
+	</video>
+	<!--the header -->
+	<header>
+		<h1>COMPANY NAME</h1>
+		<a href="index.html"><img src="img/companylogoBG.jpg" class="header-image" alt="This is the company logo" title="Company logo"></a>
+	</header>
+	<!-- the nav -->
+	<nav> 
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="http://www.blogger.com">Product</a></li>
+			<li><a href="contact.html">Blog</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<!-- extra information about the contact form -->
+		<section class="entertainment">
+			<h2>Contact</h2>
+		</section>
+
+		<section class="form">
+			<aside>More information</aside>
+			<!-- The form itself -->
+			<form action="nowhere.php" method="post">
+				<fieldset class="top-fieldset">
+					<label >Select topic</label>
+					<select>
+						<option value="general">General inquiries</option>
+						<option value="press">Press relations</option>
+						<option value="recruitement">Recruitement</option>
+					</select>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="input" 
+							type="text"
+							name="contactFormName"
+							placeholder="Your name.."
+					/>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="input" 
+							type="email"
+							name="email"
+							placeholder="Your email.."
+					/>
+				</fieldset>
+				<fieldset>
+					<textarea
+							rows="7"
+							cols="40"
+							name="message"
+							placeholder="Write something.."
+					></textarea>
+				</fieldset>
+				<input class="submit"
+						type="submit"
+						value="Submit"
+				/>
+			</form>
+		</section>
+	</main>
+	<!-- The footer -->
+	<footer>
+		<p>&copy; 2018 - <strong>Student name</strong> - Inholland</p>
+	</footer>
+</body>
+</html>

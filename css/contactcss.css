@@ -1,0 +1,270 @@
+/* The css for the pc version */
+@media only screen and (min-width: 961px) {	
+	form{
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.form{
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #F5F5F5;
+	}
+
+	fieldset{
+		width: 600px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 15px;
+	    border-style: solid;
+	    border-width: 1px;
+	    border-color: #000;
+	    background-color: #FFF;
+	}
+
+	select{
+		float: right;
+	    width: 400px;
+	    height: 30px;
+	    margin-top: -4px;
+	    margin-bottom: -8px;
+	}
+	/* submint button */
+	.submit{
+		width: 630px;	
+    	margin-left: 60px;
+   		margin-right: 60px;
+   		margin-bottom: 40px;
+   		background-color: #2699FB;
+   		border: none;
+    	height: 35px;
+    	color: #FFF;
+	}
+
+	.input{
+		margin-left: -12px;
+	    margin-right: -13px;
+	    margin-top: -13px;
+	    margin-bottom: -13px;
+	    width: 600px;
+	    height: 25px;
+	    border: none;
+	    padding-left: 12px;
+	    padding-bottom: 3px;
+	}
+
+	textarea{
+		resize: none;
+	    width: 600px;
+	    margin: -12px;
+	    border: none;
+	    padding-left: 10px;
+	    margin-top: -5px;
+	    height: 100px;
+	}
+
+	label, input, textarea{
+		color: #757575;
+		font-size: 1.2em;
+		font-family: arial;
+	}
+
+	aside {
+	    font-size: 1.5em;
+	    color: #707070;
+	    margin-left: 20px;
+	    padding-top: 15px;
+	    margin-bottom: 20px;
+	    text-align: left;
+	}
+
+	label{
+		margin-left: -85px;
+	}
+}
+
+/* The css for the tablet version */
+@media only screen and (min-width: 360px) and (max-width: 960px){
+	
+	.entertainment{
+		display: none;
+	}
+
+	.form{
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #F5F5F5;
+	}
+
+	fieldset{
+		width: 600px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 15px;
+	    border-style: solid;
+	    border-width: 1px;
+	    border-color: #000;
+	    background-color: #FFF;
+	}
+
+	select{
+	   	width: 600px;
+	    height: 30px;
+	    margin-top: 10px;
+	    margin-bottom: -8px;
+	    font-size: 1em;
+	    color: #000;
+	}
+	/* submit butoon */
+	.submit{
+		display: block;
+		width: 630px;	
+    	margin-left: auto;
+   		margin-right: auto;
+   		margin-bottom: 40px;
+   		background-color: #2699FB;
+   		border: none;
+    	height: 35px;
+    	color: #FFF;
+	}
+
+	.input{
+		margin-left: -12px;
+	    margin-right: -13px;
+	    margin-top: -13px;
+	    margin-bottom: -13px;
+	    width: 600px;
+	    height: 25px;
+	    border: none;
+	    padding-left: 12px;
+	    padding-bottom: 3px;
+	}
+
+	textarea{
+		resize: none;
+	    width: 600px;
+	    margin: -12px;
+	    border: none;
+	    padding-left: 10px;
+	    margin-top: -5px;
+	    height: 100px;
+	}
+
+	label, input, textarea{
+		color: #757575;
+		font-size: 1.2em;
+		font-family: arial;
+	}
+
+	aside {
+	    font-size: 1.5em;
+	    color: #707070;
+	    margin-left: 20px;
+	    padding-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	#top-fieldset{
+		height: 70px;
+	}
+
+	form{
+		height: 440px;
+    	padding-top: 75px;
+    	margin-bottom: -85px;
+	}
+}
+
+/* The css for the mobile version */
+@media only screen and (max-width: 359px){
+	aside{
+		display: none;
+	}
+
+	.form{
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #F5F5F5;
+	}
+
+	fieldset{
+		width: 250px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 15px;
+	    border-style: solid;
+	    border-width: 1px;
+	    border-color: #000;
+	    background-color: #FFF;
+	}
+
+	select{
+	   	width: 250px;
+	    height: 30px;
+	    margin-top: 10px;
+	    margin-bottom: -8px;
+	    font-size: 1em;
+	    color: #000;
+	}
+	/* submit button */
+	.submit{
+		display: block;
+		width: 276px;	
+    	margin-left: auto;
+   		margin-right: auto;
+   		margin-bottom: 40px;
+   		background-color: #2699FB;
+   		border: none;
+    	height: 35px;
+    	color: #FFF;
+	}
+
+	.input{
+		margin-left: -12px;
+	    margin-right: -13px;
+	    margin-top: -13px;
+	    margin-bottom: -13px;
+	    width: 248px;
+	    height: 25px;
+	    border: none;
+	    padding-left: 12px;
+	    padding-bottom: 3px;
+	}
+
+	textarea{
+		resize: none;
+	    width: 250px;
+	    margin: -12px;
+	    border: none;
+	    padding-left: 10px;
+	    margin-top: -5px;
+	    height: 100px;
+	}
+
+	label, input, textarea{
+		color: #757575;
+		font-size: 1.2em;
+		font-family: arial;
+	}
+
+	aside {
+	    font-size: 1.5em;
+	    color: #707070;
+	    margin-left: 20px;
+	    padding-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.top-fieldset{
+		height: 70px;
+		margin-top: -30px;
+	}
+
+	form{
+		height: 440px;
+    	padding-top: 75px;
+    	margin-bottom: -85px;
+	}
+}
+

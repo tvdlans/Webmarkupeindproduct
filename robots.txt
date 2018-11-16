@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow:  /inholland 
+
+Sitemap: http://tom-lans.azurewebsites.net/sitemap.xml

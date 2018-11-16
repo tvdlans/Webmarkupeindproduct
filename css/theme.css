@@ -1,0 +1,139 @@
+/* The css for the pc version */
+@media only screen and (min-width: 961px) {
+	.product-image{
+		height: 370px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	}
+	/* Now the images will not disform */
+	img{
+		object-fit: cover;
+	}
+
+	nav, h1, h2{
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+	/* The css for the blocks */
+	section{
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	p{
+		text-align: center;
+	}
+}
+
+/* The css for the tablet version */
+@media only screen and (min-width: 360px) and (max-width: 960px){
+	/* images */
+	.product-image{
+		height: 325px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	    margin-bottom: -4px;
+	}
+
+	.board-games, .mobile-games>h2{
+		display: none;
+	}
+
+	.entertainment-img{
+		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+
+	.entertainment-img>img{
+		width: 100%;
+	}
+
+	.mobile-games{
+		display: block;
+		width: 50%;
+		float: right;
+	}
+
+	.mobile-games>img{
+		width: 100%;
+	}
+
+	.console-games>img {
+		width: 100%;
+	}		
+
+	img{
+		object-fit: cover;
+	}
+	/* end */
+	nav, h1, h2{
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	section{
+		width: 100%;
+		display: inline-block;
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+	h2{
+		display: block;
+		font-size: 4em;
+		margin-bottom: auto;
+		margin-top: auto;	
+		font-weight: 100;
+	}
+	/* footer */
+	p{
+		text-align: center;
+	}
+}
+
+/* The css for the mobile version */
+@media only screen and (max-width: 359px){
+	/* images */
+	.product-image{
+		height: 150px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    overflow: hidden;
+	}
+
+	.mobile-games>h2, .board-games>h2, .console-games>h2{
+		display: none;
+	}
+
+	img{
+		object-fit: cover;
+	}
+	/* end */
+	nav, h1, h2, a{
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	section{
+		background-color: #2699FB;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+	/* foote */
+	p{
+		text-align: center;
+	}
+}
+
+
+

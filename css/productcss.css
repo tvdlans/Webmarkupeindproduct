@@ -1,0 +1,93 @@
+/* The css for the pc version */
+@media only screen and (min-width: 961px) {	
+	/* The product images */
+	section{
+		display: block;
+		text-align: center;
+		background-color: #2699FB;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h2{
+		margin-bottom: 0px;
+	    font-size: 4em;
+	    color: #FFF;
+	    margin-top: 0px;
+	    text-transform: uppercase;
+	}
+
+	section>img{
+		height: 169px;
+	    width: 231px;
+	    overflow: hidden;
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 10px;
+	}
+	/* The grid container */
+	.grid-container{
+		background-color: #FFF;
+	}	
+}
+
+/* The css for the tablet version */
+@media only screen and (min-width: 360px) and (max-width: 960px){
+	/* product imagaes */
+	section{
+		display: block;
+		text-align: center;
+		background-color: #2699FB;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section>h2{
+		display: none;
+	}
+
+	section>img{
+		height: 250px;
+	    width: 45%;
+	    overflow: hidden;
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	/* The grid container */
+	.grid-container{
+		background-color: #FFF;
+	}	
+}
+
+/* The css for the mobile version */
+@media only screen and (max-width: 359px){
+	/* Product images */
+	section{
+		display: block;
+		text-align: center;
+		background-color: #2699FB;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section>h2{
+		display: none;
+	}
+
+	section>img{
+		height: 200px;
+	    width: 90%;
+	    overflow: hidden;
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	/* The Grid container */
+	.grid-container{
+		background-color: #FFF;
+	}	
+}
